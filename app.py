@@ -54,7 +54,7 @@ if run_button:
             query_name = get_compound_name_from_smiles(query_smiles) or "query"
 
         if query_name and not query_smiles:
-            query_smiles s= get_smiles_from_name(query_name)
+            query_smiles = get_smiles_from_name(query_name)
         
         st.write(f"✅ Identified molecule: **{query_name}**")
         st.code(query_smiles, language="text")
