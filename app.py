@@ -177,4 +177,4 @@ if run_button:
 
 
 st.markdown("---")
-st.markdown("💻 *Developed with ❤️ using Streamlit + SHAFTS + RDKit + DeepSeek reasoning*")
+st.markdown("💻 *Developed with ❤️ using Streamlit + SHAFTS + RDKit + DeepSeek reasoning by Corey Jiang*")
